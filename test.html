@@ -74,7 +74,7 @@ $(function () {
         window.location.href="/"
         return;
     }
-    var connection = new WebSocket('wss://'+"ctf15.root-me.org"+'/ws');  
+    var connection = new WebSocket('ws://'+"ctf15.root-me.org"+'/ws');  
     connection.onopen = function () {
         connection.send("FLAG");
 
